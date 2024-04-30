@@ -1,0 +1,7 @@
+streamlit 
+pypdf2 
+fpdf 
+streamlit-authenticator
+pymupdf
+google-cloud-aiplatform
+
