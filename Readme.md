@@ -1,7 +1,11 @@
-Pre-requisites - Create service account export keys as needed to run app
-
+Pre-requisites
+Create a service account and export the keys as needed to run the application.
 Steps for Demo
+Install required packages:
 
-Install required packages - pip install -r requirements.txt
-Use the pdf example course file
-Streamlit run Demo.py
+pip install -r requirements.txt
+Use the PDF example course file.
+
+Run the application:
+
+streamlit run Demo.py
