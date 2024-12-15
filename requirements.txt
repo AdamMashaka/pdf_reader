@@ -1,7 +1,9 @@
 streamlit 
 pypdf2 
-fpdf 
+fpdf  
 streamlit-authenticator
 pymupdf
-google-cloud-aiplatform
+google-cloud-aiplatform 
+
+
 

@@ -11,9 +11,9 @@ import vertexai
 from vertexai.generative_models import GenerativeModel, Part, FinishReason
 import vertexai.preview.generative_models as generative_models
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"/Users/siva/Documents/gcphackathon/gcp_keys.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"/Users/adam/Documents/gcphackathon/gcp_keys.json"
 
-# Initialize the AI Platform client with your project details
+
 def init_ai_platform(project_id, region):
     aiplatform.init(project=project_id, location=region)
 
@@ -121,14 +121,8 @@ def main():
         # Generate content
         responses = generate_content(model, text_to_rewrite, generation_config, safety_settings)
 
-        #answer_text = extract_answer(responses)
-        #print(answer_text)
-        #for response in responses:
-        #    st.write("##Generated Content",response.text)
-
-        # Print responses
+      
         st.write("### Generated Rewritten Content", responses.text)
-
-# Entry point for the script
+        
 if __name__ == '__main__':
     main()        

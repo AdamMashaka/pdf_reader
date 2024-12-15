@@ -5,4 +5,4 @@
 pip install -r requirements.txt
 Use the PDF example course file.
 - Run the application:
-- streamlit run Demo.py
+- streamlit run Demo.py to see a real demo
